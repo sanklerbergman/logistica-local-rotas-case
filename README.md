@@ -101,6 +101,6 @@ Algumas das dores que guiaram o projeto (os números são do mercado, não do pr
 
 ## Contato
 
-Desenvolvido por **Sankler Bergman**. O código é privado; mostro o sistema funcionando e o código numa conversa.
+Desenvolvido por **Sankler Bergman**. O código é privado; mostro o sistema funcionando.
 
 [LinkedIn](https://www.linkedin.com/in/sankler-bergman-64962511b/) · [Outros projetos](https://github.com/sanklerbergman)
