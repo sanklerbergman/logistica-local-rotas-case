@@ -2,7 +2,7 @@
 
 Sistema de entregas de última milha para transportadoras e lojas pequenas e médias de Mato Grosso. Junta numa mesma operação, em tempo real, quem despacha (painel da central), quem entrega (app do motorista) e quem recebe (link de rastreio).
 
-- **Situação:** piloto em produção desde 08/10/2026, hoje na versão 1.5.0, numa VM micro na Oracle Cloud.
+- **Situação:** piloto em produção desde 08/10/2026, hoje na versão 1.5.0.
 - **Código:** privado. Este repositório mostra o produto, as decisões e o método.
 - **Imagens:** sistema rodando localmente com dados fictícios em Cuiabá e Várzea Grande.
 
@@ -13,7 +13,7 @@ Sistema de entregas de última milha para transportadoras e lojas pequenas e mé
 
 ## Por onde começou: as reclamações, não as funcionalidades
 
-Antes de escrever código, levantei as dores de quem despacha, entrega e recebe no Brasil. As fontes foram Reclame Aqui, imprensa, avaliações de concorrentes estrangeiros (Onfleet, Routific, Circuit) e legislação. Foram 22 dores em três perfis de usuário, cada uma com fonte, prioridade e situação no código, atualizada a cada versão. Esse registro é o backlog do produto.
+Antes de escrever código, levantei as dores de quem despacha, entrega e recebe no Brasil. As fontes foram Reclame Aqui, imprensa, avaliações de concorrentes estrangeiros (Onfleet, Routific, Circuit), legislação e entrevistas com usuários de ambos os lados, como os motoristas e os administradores. Foram 22 dores em três perfis de usuário, cada uma com fonte, prioridade e situação no código, atualizada a cada versão. Esse registro é o backlog do produto.
 
 Algumas das dores que guiaram o projeto (os números são do mercado, não do produto):
 
