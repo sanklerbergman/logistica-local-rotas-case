@@ -1,5 +1,7 @@
 # Logística Local & Rotas — estudo de caso
 
+**Português** · [English](README.en.md)
+
 Sistema de entregas de última milha para transportadoras e lojas pequenas e médias de Mato Grosso. Junta numa mesma operação, em tempo real, quem despacha (painel da central), quem entrega (app do motorista) e quem recebe (link de rastreio).
 
 - **Situação:** piloto em produção desde 08/10/2026, hoje na versão 1.5.0.
