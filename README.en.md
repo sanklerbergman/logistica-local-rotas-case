@@ -105,6 +105,6 @@ After the switch, these steps went to Tropeiro:
 
 ## Contact
 
-Built by **Sankler Bergman**. The code is private; I'm happy to show you the system running.
+Built by **Sankler Bergman**. The code is private; I'm happy to show you [Tropeiro](https://sankler.com.br/en/#tropeiro), the platform that carried on this pilot, up and running.
 
-[LinkedIn](https://www.linkedin.com/in/sankler-bergman-64962511b/) · [Other projects](https://github.com/sanklerbergman)
+[contato@sankler.com.br](mailto:contato@sankler.com.br) · [LinkedIn](https://www.linkedin.com/in/sankler-bergman-64962511b/) · [Other projects](https://github.com/sanklerbergman)

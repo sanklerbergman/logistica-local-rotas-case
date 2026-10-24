@@ -105,6 +105,6 @@ Com a troca, estes passos ficaram para o Tropeiro:
 
 ## Contato
 
-Desenvolvido por **Sankler Bergman**. O código é privado; mostro o sistema funcionando.
+Desenvolvido por **Sankler Bergman**. O código é privado; mostro funcionando o [Tropeiro](https://sankler.com.br/#tropeiro), que continuou este piloto.
 
-[LinkedIn](https://www.linkedin.com/in/sankler-bergman-64962511b/) · [Outros projetos](https://github.com/sanklerbergman)
+[contato@sankler.com.br](mailto:contato@sankler.com.br) · [LinkedIn](https://www.linkedin.com/in/sankler-bergman-64962511b/) · [Outros projetos](https://github.com/sanklerbergman)
