@@ -4,7 +4,7 @@
 
 A last-mile delivery system for small and mid-sized carriers and retailers in Mato Grosso, Brazil. It connects the whole operation in real time: the dispatcher (web dashboard), the driver (mobile app) and the customer (tracking link).
 
-- **Status:** pilot in production since October 8, 2026, currently on version 1.5.0.
+- **Status:** pilot in production from October 8 to October 15, 2026; its final version was 1.5.0. It was replaced by [Tropeiro](https://sankler.com.br/en/#tropeiro), which took over the pilot's data and carried on the work.
 - **Code:** private. This repository shows the product, the decisions behind it and the method.
 - **Screenshots:** the system running locally with fictitious data in Cuiabá and Várzea Grande. The interface is in Portuguese because the product is built for the Brazilian market.
 
@@ -79,7 +79,7 @@ Some of the pain points that shaped the project (the figures describe the market
   - Dispatch receives everything, a driver only their own deliveries, and the public page only its own delivery.
   - Events carry only a notification. The data is then fetched from the API, which enforces the permissions.
 - **Self-hosted maps.**
-  - The map of the whole state of Mato Grosso is hosted on the server itself (PMTiles with OpenStreetMap data), with no dependency on a third-party map service.
+  - The map of the whole state of Mato Grosso was hosted on the server itself (PMTiles with OpenStreetMap data), with no dependency on a third-party map service.
   - Stop order uses nearest neighbor with 2-opt, and the street route comes from OSRM.
 - **Security.**
   - Drivers can only sign up through a single-use invite.
@@ -93,9 +93,11 @@ Some of the pain points that shaped the project (the figures describe the market
   - Releases are published as a package with a SHA-256 checksum.
   - Every migration is rehearsed on a copy of the database, with a backup before it is applied.
   - After a release, production only gets read-only checks.
-  - On the micro VM, the API uses about 71 MiB of memory and the dashboard about 95 MiB.
+  - On the micro VM, the API used about 71 MiB of memory and the dashboard about 95 MiB.
 
 ## Next steps
+
+After the switch, these steps went to Tropeiro:
 
 - Separate data by client company, to offer the system as a subscription.
 - Automatic customer notifications ("out for delivery", "we couldn't deliver").

@@ -4,7 +4,7 @@
 
 Sistema de entregas de última milha para transportadoras e lojas pequenas e médias de Mato Grosso. Junta numa mesma operação, em tempo real, quem despacha (painel da central), quem entrega (app do motorista) e quem recebe (link de rastreio).
 
-- **Situação:** piloto em produção desde 08/10/2026, hoje na versão 1.5.0.
+- **Situação:** piloto em produção de 08/10/2026 a 15/10/2026; a versão final foi a 1.5.0. Foi substituído pelo [Tropeiro](https://sankler.com.br/#tropeiro), que recebeu os dados do piloto e continuou o trabalho.
 - **Código:** privado. Este repositório mostra o produto, as decisões e o método.
 - **Imagens:** sistema rodando localmente com dados fictícios em Cuiabá e Várzea Grande.
 
@@ -79,7 +79,7 @@ Algumas das dores que guiaram o projeto (os números são do mercado, não do pr
   - A central recebe tudo, o motorista só as próprias entregas e a página pública só a própria entrega.
   - Os eventos levam apenas um aviso, e os dados são buscados na API, que aplica as permissões.
 - **Mapas próprios.**
-  - O mapa de todo Mato Grosso fica hospedado no próprio servidor (PMTiles, dados do OpenStreetMap), sem depender de serviço de mapas de terceiros.
+  - O mapa de todo Mato Grosso ficava hospedado no próprio servidor (PMTiles, dados do OpenStreetMap), sem depender de serviço de mapas de terceiros.
   - A ordem das paradas usa vizinho mais próximo com 2-Opt, e o traçado pelas ruas vem do OSRM.
 - **Segurança.**
   - Cadastro de motorista só por convite de uso único.
@@ -93,9 +93,11 @@ Algumas das dores que guiaram o projeto (os números são do mercado, não do pr
   - Versões publicadas como pacote com checksum SHA-256.
   - Cada migração é ensaiada numa cópia do banco, com backup antes de aplicar.
   - Depois de publicar, só há verificações de leitura em produção.
-  - Na VM micro, a API usa cerca de 71 MiB de memória e o painel cerca de 95 MiB.
+  - Na VM micro, a API usava cerca de 71 MiB de memória e o painel cerca de 95 MiB.
 
 ## Próximos passos
+
+Com a troca, estes passos ficaram para o Tropeiro:
 
 - Separar os dados por empresa cliente, para oferecer o sistema como assinatura.
 - Avisos automáticos ao cliente ("saiu para entrega", "não conseguimos entregar").
